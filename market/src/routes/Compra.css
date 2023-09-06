@@ -1,0 +1,21 @@
+.containerCompra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    gap: 27px;
+}
+.containerCompra h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.containerCompra a{
+    text-decoration: none;
+    color: rgb(16, 45, 206);
+    padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.containerCompra a:hover{
+    background-color:#eeeeee;
+    border-radius: 10%;
+}

@@ -5,6 +5,7 @@ import ('./Aparelho.css');
 export default function Aparelho(){
 
     document.title = "Aparelhos";
+    
 
 return(
     <>
@@ -15,7 +16,7 @@ return(
                     <tbody>
                         {ListaAparelho.map((produto,indice)=>(
                         <tr className='aparelhos' key={indice} >
-                            <td><img src={produto.img} alt="" /></td>
+                            <td><Link to={`/aparelho/detalhes/${produto.id}`}><img src={produto.img} alt="" /></Link></td>
                             <td>Nome do Aparelho - {produto.nome}</td>
                             <td>Preço do Aparelho - {produto.preco}</td>    
                             <td className="botao"><Link to={`/aparelho/detalhes/${produto.id}`}>Ver mais detalhes</Link></td>

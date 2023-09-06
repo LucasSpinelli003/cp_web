@@ -13,6 +13,7 @@ export default function DetalhesAparelho(){
         }
     });
 
+
     return(
         <>
         <section className='containerDetalhes'>
@@ -28,7 +29,7 @@ export default function DetalhesAparelho(){
                         <p>{produtoRecuperadoPorId[0].descricao}</p>
                         <p>GB: {produtoRecuperadoPorId[0].gb}</p>
                         <p>Cor: {produtoRecuperadoPorId[0].cor}</p>
-                        <h3><Link >Comprar</Link></h3>
+                        <h3><Link to={'/compra'}>Comprar</Link></h3>
                         
                     </div>
                 </div>

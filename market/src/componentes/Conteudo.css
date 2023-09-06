@@ -6,6 +6,8 @@
 .name{
     text-align: center;
     color: #fff;
+    padding: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .space{
     background-color: rgb(255, 92, 28);

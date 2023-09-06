@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import './Home.css'
 
 export default function Home() {
-  document.title = 'Home'
+  document.title = 'KaBuM! | Maior loja de E-commerce de tecnologia e games da América Latina'
     return(
        <>
        <section className='container'>

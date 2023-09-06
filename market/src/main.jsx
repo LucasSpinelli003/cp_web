@@ -11,6 +11,7 @@ import Promocao from './routes/Promocao.jsx';
 import Aparelho from './routes/Aparelho.jsx';
 import SobreNos from './routes/SobreNos.jsx'
 import DetalhesAparelho from './routes/DetalhesAparelho.jsx'
+import Compra from './routes/Compra.jsx'
 
 
 
@@ -23,7 +24,8 @@ const router = createBrowserRouter([
       {path:'/promocao', element:<Promocao/>},
       {path:'/aparelho', element:<Aparelho/>},
       {path:'/sobrenos', element:<SobreNos/>},
-      {path:'/aparelho/detalhes/:id', element:<DetalhesAparelho/>}
+      {path:'/aparelho/detalhes/:id', element:<DetalhesAparelho/>},
+      {path:'/compra', element:<Compra/>}
     ]
   },
 ])
