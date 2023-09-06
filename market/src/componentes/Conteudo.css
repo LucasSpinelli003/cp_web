@@ -1,0 +1,12 @@
+#root div{
+    max-width:none;
+    margin: 0;
+    padding: 0;
+}
+.name{
+    text-align: center;
+    color: #ff3c00;
+}
+.space{
+    background-color: #fff;
+}

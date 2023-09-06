@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 div{
     background-color: rgb(16, 45, 206);
 }
@@ -20,25 +21,23 @@ div{
     align-items: center;
     gap: 50px;
     list-style-type:none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.lista li{
+.page{
     cursor: pointer;
     color: #fff;    
 }
-.lista li{
-    padding: 8px;
-}
 
-.lista li:hover{
-    background-color: rgb(254, 41, 41);
-    border-radius: 19%;
-}
-.lista a{
+.page a{
     text-decoration: none;
     color: #fff;
+    padding: 8px;
+}
+.page a:hover{
+background-color: rgb(254, 41, 41);
+border-radius: 19%;
 }
 
-img:hover{
-    background-color: rgb(16, 45, 206);
-    border-radius: 19%;
+.logo{
+    padding: 0;
 }

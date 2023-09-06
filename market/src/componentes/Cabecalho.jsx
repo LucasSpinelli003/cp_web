@@ -10,11 +10,11 @@ export default function Cabecalho() {
             <header className='cabecalho'>
                 <Link to='/'><img className='logo' src={logo} alt="Logo"/></Link>
                 <ul className='lista'>
-                    <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/promocao'>Promoção</Link></li>
-                    <li><Link to='/aparelho'>Aparelhos</Link></li>
-                    <li>Tv</li>
-                    <li>Games</li>
+                    <li className='page'><Link to='/'>Home</Link></li>
+                    <li className='page'><Link to='/promocao'>Promoção</Link></li>
+                    <li className='page'><Link to='/aparelho'>Aparelhos</Link></li>
+                    <li className='page'>Tv</li>
+                    <li className='page'>Games</li>
                 </ul>
             </header>
         </div>
