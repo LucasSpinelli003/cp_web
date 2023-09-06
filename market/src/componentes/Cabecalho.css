@@ -5,7 +5,7 @@
 }
 
 
-div{
+.containerCabe{
     background-color: rgb(16, 45, 206);
 }
 
@@ -34,10 +34,10 @@ div{
     padding: 8px;
 }
 .page a:hover{
-background-color: rgb(254, 41, 41);
+background-color: rgb(39, 65, 211);
 border-radius: 19%;
 }
 
 .logo{
-    padding: 0;
+    padding: none;
 }

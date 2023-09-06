@@ -1,0 +1,21 @@
+.containerDetalhes{
+    background-color: #fff;
+}
+.info h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info h3{
+    padding: 8px;
+}
+.info a{
+    text-decoration: none;
+    color:rgb(16, 45, 206);
+    padding:8px;
+}
+.info a:hover{
+    background-color:#eeeeee;
+    border-radius: 5%;
+}
