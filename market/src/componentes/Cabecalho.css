@@ -1,13 +1,44 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
-img{
-    display: block;
+div{
+    background-color: rgb(16, 45, 206);
 }
 
-div{
-    background-color: blue;
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    list-style-type:none;
+}
+.lista li{
+    cursor: pointer;
+    color: #fff;    
+}
+.lista li{
+    padding: 8px;
+}
+
+.lista li:hover{
+    background-color: rgb(254, 41, 41);
+    border-radius: 19%;
+}
+.lista a{
+    text-decoration: none;
+    color: #fff;
+}
+
+img:hover{
+    background-color: rgb(16, 45, 206);
+    border-radius: 19%;
 }
